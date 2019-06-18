@@ -2,6 +2,7 @@
 
 CS 174A - Spring 2019
 Steven La, Yechan Lee, Christopher Ngai, Kyle Reidy
+Project can be viewed in Chrome at: https://kreidy.github.io/CS118-term-project-5/
 
 # Description
 A physics-based hydrodynamic particle simulator, featuring elements of air, water, earth, and fire.
