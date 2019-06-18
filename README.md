@@ -1,17 +1,17 @@
 # Elemental Particle Simulator
 
 CS 174A - Spring 2019
-Steven La, Kyle Reidy, Christopher Ngai, Yechan Lee
+Steven La, Yechan Lee, Christopher Ngai, Kyle Reidy
 
 # Description
 A physics-based hydrodynamic particle simulator, featuring elements of air, water, earth, and fire.
 
 # Stuff that Isn't Obvious
- 
+
 - Getting all of the particles on screen to move to user's cursor
   - Needed a dynamic mapping function to scale a point chosen on screen to a 3D point within the camera display
   - `mouse_position()` function returns a XY coordinate between -540 to 540 for X and -380 to 380 for Y
-  - Dynamic mapping function converted 2D point on display screen to 3D point in XYZ plane of our scene 
+  - Dynamic mapping function converted 2D point on display screen to 3D point in XYZ plane of our scene
   - Moving camera forward/back, left/right, up/down changes the 3D coordinate system but the 2D XY coordinate system remains the same. Thus we needed a mapping function that handled camera transformations
 
 - Making the particles interact in a realistic, physics-based fashion
@@ -60,7 +60,7 @@ A physics-based hydrodynamic particle simulator, featuring elements of air, wate
   - Improved particle regeneration
   - Particle class
   - Improved particle velocity and acceleration features
-  - Implemented particle boxes for realistic particle collisions 
+  - Implemented particle boxes for realistic particle collisions
   - Pause and Next Frame feature
   - Velocity normalization
 
